@@ -1,0 +1,182 @@
+
+@media only screen and (max-width:1025px){
+    .remont img {
+        height: 360px;
+        padding-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:992px){
+    .all-ipad-main .all-ipad-item {
+       
+        flex-basis: 50%;
+    }
+    .all-remont{
+        flex-direction: column;
+    }
+    .remont .remont-main{
+        flex-direction: column;
+    }
+    /* .grid .bg-white{
+        height: 270px;
+    } */
+    .footer-main{
+        flex-direction: column;
+        height: 150px;
+    }
+    #navbarNav{
+        text-align: center;
+    }
+}
+@media only screen and (max-width:767px){
+    .remont h3{
+        font-size: 60px !important;
+    }
+    .remont h2{
+        font-size: 60px !important;
+    }
+    .slick-initialized .slick-slide{
+        flex-direction: column;
+    }
+    .slider-text{
+        text-align: center;
+    }
+    .all-imac .all-imac-main .all-imac-item{
+        flex-basis: 100%;
+    }
+    .all-ipad-main .all-ipad-item {
+       
+        flex-basis: 100%;
+    }
+    .all-ipad-main .all-ipad-item img {
+        height: 285px;
+    }
+    .all-imac .all-imac-main .all-imac-item img{
+        height: 285px;
+    }
+    .remont-skill-main{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+.sale .grid{
+    display: flex;
+    flex-direction: column !important;
+}
+/* .bg-white img{
+    height: 150px;
+} */
+.slider-text h2 {
+    font-size: 60px;
+    padding-bottom: 0px; 
+}
+.slider-text p {
+    font-size: 15px;
+    line-height: 20px;
+}
+.banner-text{
+    padding-top: 0px !important;
+}
+}
+
+
+@media only screen and (max-width:560px){
+.remont h2{
+    font-size: 65px !important;
+}
+.remont h3{
+    font-size: 60px !important;
+}
+}
+
+@media only screen and (max-width:500px){
+
+.remont h2 {
+    font-size: 50px !important;
+}
+.remont h3 {
+    font-size: 50px !important;
+}
+.remont img {
+    height: 270px !important;
+    padding-top: 50px;
+}
+}
+@media only screen and (max-width:445px){
+    .remont h2 {
+        font-size: 35px !important;
+    }
+    .remont h3 {
+        font-size: 35px !important;
+    }
+    .all-remont-item{
+        flex-direction: column;
+    }
+    .all-remont-item p{
+        padding-right: 0px;
+    }
+    header .bg-white .header .header-info span{
+        margin-right: 0px;
+    }
+    .slick-slide img {
+        display: block;
+        height: 185px !important;
+    }
+ 
+    .header{
+        flex-direction: column;
+    }
+    }
+
+
+
+    @media only screen and (max-width:460px){
+        .header-info{
+            padding-bottom: 10px;
+        }
+    }
+          
+@media only screen and (max-width:400px){
+    
+    .banner h1{
+      font-size: 70px;
+    }
+    .remont img{
+        height: 300px !important;
+    }
+    }
+          
+    @media only screen and (max-width:360px){
+        .remont h2 {
+            font-size: 40px !important;
+        }
+        .remont h3 {
+            font-size: 40px !important;
+        }
+        header .nav a {
+            color: black;
+            font-size: 11px !important;
+            font-family: 'Roboto-Regular';
+        }        
+    header .header-bottom .nav a{
+        font-size: 11px;
+    }
+
+    .delivery p{
+        font-size: 16px !important;
+    }
+
+    .sale h2{
+        font-size: 40px;
+    }
+
+
+    }
